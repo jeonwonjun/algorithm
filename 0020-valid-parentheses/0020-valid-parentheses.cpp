@@ -7,6 +7,8 @@ public:
             if (s[i] == '(' || s[i] == '[' || s[i] == '{')
                 st.push(s[i]);
             else if (s[i] == ')' || s[i] == ']' || s[i] == '}') {
+                if (st.empty())
+                    return false;
                 char k = st.top();
                 if (k == '(' && s[i] == ')')
                     st.pop();
