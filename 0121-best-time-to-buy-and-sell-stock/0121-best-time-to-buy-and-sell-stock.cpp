@@ -15,9 +15,6 @@ public:
             
         }
 
-        // for (int i = 0; i<prices.size(); i++)
-        //     cout << dp[i] << " ";
-
         int ans = 0;
         for (int i=0; i<prices.size(); i++) {
             ans = max(ans, prices[i] - prices[dp[i]]);
