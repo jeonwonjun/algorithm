@@ -2,21 +2,19 @@ class Solution {
 public:
     bool isAnagram(string s, string t) {
         // s valuse push in to hashTable
-        unordered_map<char, int> anagram;
-        
-        for(char c : s) {
-            anagram[c]++;
+        vector<int> alpha(26, 0);
+        if (s.size() != t.size())
+            return false;
+
+        for (int i=0; i<s.size(); i++) {
+            alpha[s[i] - 'a']++;
+            alpha[t[i] - 'a']--;
         }
 
-        for(char c : t) {
-            anagram[c]--;
+        for (int i=0; i<26; i++) {
+            if (alpha[i] != 0)
+                return false;
         }
-
-        for (const auto& [key, value] : anagram) {
-            if (value != 0) {
-                return false; // 하나라도 0이 아니면 false
-            }
-    }
     return true;
         
     }
