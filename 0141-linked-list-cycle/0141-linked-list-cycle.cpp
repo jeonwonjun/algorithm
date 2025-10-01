@@ -7,17 +7,21 @@
  * };
  */
 class Solution {
-    unordered_set<ListNode*> visited_nodes;
 public:
+    // floyd's cycle-finding algorithm
     bool hasCycle(ListNode *head) {
-        ListNode* curr = head;
+        if(head == nullptr || head->next == nullptr)
+            return false;
 
-        while (curr != nullptr){
-            if(visited_nodes.count(curr))
+        ListNode *slow = head;
+        ListNode *fast = head;
+
+        while (fast != nullptr && fast->next != nullptr){
+            slow = slow->next;
+            fast = fast->next->next;
+
+            if (slow == fast)
                 return true;
-
-            visited_nodes.insert(curr);
-            curr = curr->next;
         }
 
         return false;
