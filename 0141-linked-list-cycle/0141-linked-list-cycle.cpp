@@ -7,21 +7,17 @@
  * };
  */
 class Solution {
-    unordered_map<int, int> pos;
+    unordered_set<ListNode*> visited_nodes;
 public:
     bool hasCycle(ListNode *head) {
-        if(head == nullptr || head->next == nullptr)
-            return false;
+        ListNode* curr = head;
 
-        ListNode *slow = head;
-        ListNode *fast = head;
-
-        while (fast != nullptr && fast->next != nullptr){
-            slow = slow->next;
-            fast = fast->next->next;
-
-            if (slow == fast)
+        while (curr != nullptr){
+            if(visited_nodes.count(curr))
                 return true;
+
+            visited_nodes.insert(curr);
+            curr = curr->next;
         }
 
         return false;
