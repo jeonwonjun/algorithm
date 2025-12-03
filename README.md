@@ -18,5 +18,3 @@ Algorithm Solving
 | ------- |
 | [0283-move-zeroes](https://github.com/jeonwonjun/algorithm/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
-
-1
