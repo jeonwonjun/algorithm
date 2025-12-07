@@ -1,37 +1,53 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
+struct Country {
+    int id;
+    int g, s, b;
+};
+
 int main() {
-    int N, K;
-    cin >> N >> K;
-    int gold[1001] = {0,};
-    int silver[1001] = {0,};
-    int bronze[1001] = {0,};
-    int answer = 0;
+    // 입력 받기
+    int n, k;
+    cin >> n >> k;
+    vector<Country> v;
     
-    for (int i=0; i<N; i++) {
-        int index;
-        cin >> index;
-        cin >> gold[index] >> silver[index] >> bronze[index];
-    }
+    int gk = 0, sk = 0, bk = 0;
     
-    for (int i=1; i<=N; i++) {
-        if (gold[i] > gold[K]) {
-            answer++;
-        }
-        else if (gold[i] == gold[K]) {
-            if (silver[i] > silver[K]) {
-                answer++;
-            }
-            else if (silver[i] == silver[K]) {
-                if (bronze[i] < bronze[K]) {
-                    answer++;
-                }
-            }
+    for (int i=0; i<n; i++) {
+        int id, g, s, b;
+        cin >> id >> g >> s >> b;
+        v.push_back({id, g, s, b});
+        
+        if (id == k) {
+            gk = g;
+            sk = s;
+            bk = b;
         }
     }
     
-    cout << answer + 1 <<'\n';
+    int better = 0;
+    for (auto c : v) {
+        if (c.id == k) continue;
+        
+        bool isBetter = false;
+        
+        if (c.g > gk) {
+            isBetter = true;
+        } else if (c.g == gk && c.s > sk) {
+            isBetter = true;
+        } else if (c.g == gk && c.s == sk && c.b > bk) {
+            isBetter = true;
+        }
+        
+        if (isBetter) {
+            better++;
+        }
+    }
+    
+    cout << better + 1 << '\n';
+
     return 0;
 }
