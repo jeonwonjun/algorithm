@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     int h, w, x, y;
     cin >> h >> w >> x >> y;
-    int A[301][301];
-    int B[601][601];
+    int A[h][w];
+    int B[h+x][w+y];
     for (int i=0; i<h+x; i++) {
         for (int j=0; j<w+y; j++) {
             cin >> B[i][j];
