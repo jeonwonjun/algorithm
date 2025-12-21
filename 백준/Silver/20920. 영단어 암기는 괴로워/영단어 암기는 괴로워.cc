@@ -15,6 +15,9 @@ bool compare(const pair<string, int>& a, const pair<string, int>& b) {
 }
 
 int main() {
+    cin.tie(NULL);
+    ios::sync_with_stdio(false);
+    
     map<string, int> dictionaly;
     int n, m;
     cin >> n >> m;
