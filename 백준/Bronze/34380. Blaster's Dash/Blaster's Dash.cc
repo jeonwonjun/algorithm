@@ -6,9 +6,9 @@ int main() {
     cin.tie(nullptr);
 
     long long M, V, n, K;
-    cin >> M >> V;   // not needed for the distance
+    cin >> M >> V;
     cin >> n;
-    cin >> K;        // not needed for the distance
+    cin >> K;
 
     cout << 2 * n + 40 << "\n";
     return 0;
