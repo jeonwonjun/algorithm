@@ -1,12 +1,12 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 int main() {
-    double h;
-    cin >> h;
+    float n;
+    cin >> n;
 
-    cout << fixed << setprecision(4) << h - 0.3 << endl;
-
+    cout << fixed;
+    cout.precision(4);
+    cout << n - 0.3;
     return 0;
 }
