@@ -32,24 +32,25 @@ int main() {
         return 0;
     }
 
+    vector<bool> visited(m, false);
+
     int answer = 0;
-    while (!boxes.empty()) {
-        int j = 0;
+    int moved = 0;
+    while (moved < m) {
+        int idx = 0;
+
         for (int i = 0; i < n; i++) {
-            if (boxes.size() == 0 && i != 0) {
-                answer++;
-                cout << answer;
-                return 0;
-            }
-            for (int j = 0; j < boxes.size(); j++) {
-                if (cranes[i] >= boxes[j]) {
-                    boxes.erase(boxes.begin() + j);
+            while (idx < m) {
+                if (!visited[idx] && cranes[i] >= boxes[idx]) {
+                    visited[idx] = true;
+                    moved++;
+                    idx++;
                     break;
-                } else {
-                    j++;
                 }
+                idx++;
             }
         }
+
         answer++;
     }
     
