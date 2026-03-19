@@ -1,25 +1,22 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int n = Integer.parseInt(br.readLine());
+        int n = sc.nextInt();
 
         List<Integer> cranes = new ArrayList<>();
         List<Integer> boxes = new ArrayList<>();
         
-        StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
-            cranes.add(Integer.parseInt(st.nextToken()));
+            cranes.add(sc.nextInt());
         }
 
-        int m = Integer.parseInt(br.readLine());
-        st = new StringTokenizer(br.readLine());
+        int m = sc.nextInt();
+
         for (int i = 0; i < m; i++) {
-            boxes.add(Integer.parseInt(st.nextToken()));
+            boxes.add(sc.nextInt());
         }
 
         cranes.sort(Collections.reverseOrder());
