@@ -20,13 +20,8 @@ int main() {
         int dist_front = distance(dq.begin(), it);
         int dist_back = dq.size() - dist_front;
 
-        if (dist_front <= dist_back) {
-            rotate(dq.begin(), it, dq.end());
-            dq.pop_front();
-        } else {
-            rotate(dq.begin(), it, dq.end());
-            dq.pop_front();
-        }
+        rotate(dq.begin(), it, dq.end());
+        dq.pop_front();
 
         answer += min(dist_front, dist_back);
     }
