@@ -1,3 +1,2 @@
 # algorithm
 Algorithm Solving
-
