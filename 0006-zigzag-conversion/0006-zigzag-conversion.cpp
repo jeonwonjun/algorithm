@@ -1,6 +1,5 @@
 class Solution {
 public:
-    // dx, dy 방향 설정: [0]은 아래로 내려가기, [1]은 오른쪽 위 대각선으로 올라가기
     int dx[2] = {1, -1};
     int dy[2] = {0, 1};
 
