@@ -10,6 +10,7 @@ Algorithm Solving
 | [0011-container-with-most-water](https://github.com/jeonwonjun/algorithm/tree/master/0011-container-with-most-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jeonwonjun/algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/jeonwonjun/algorithm/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/jeonwonjun/algorithm/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/jeonwonjun/algorithm/tree/master/0561-array-partition) |
 | [0605-can-place-flowers](https://github.com/jeonwonjun/algorithm/tree/master/0605-can-place-flowers) |
@@ -42,6 +43,7 @@ Algorithm Solving
 | [0012-integer-to-roman](https://github.com/jeonwonjun/algorithm/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jeonwonjun/algorithm/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/jeonwonjun/algorithm/tree/master/0067-add-binary) |
+| [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 ## Recursion
 |  |
 | ------- |
@@ -52,6 +54,7 @@ Algorithm Solving
 | [0012-integer-to-roman](https://github.com/jeonwonjun/algorithm/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jeonwonjun/algorithm/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/jeonwonjun/algorithm/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 ## String
 |  |
 | ------- |
@@ -68,6 +71,7 @@ Algorithm Solving
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/jeonwonjun/algorithm/tree/master/0067-add-binary) |
+| [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 ## Simulation
 |  |
 | ------- |
@@ -80,6 +84,7 @@ Algorithm Solving
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jeonwonjun/algorithm/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/jeonwonjun/algorithm/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/jeonwonjun/algorithm/tree/master/0561-array-partition) |
 ## Counting
@@ -90,4 +95,8 @@ Algorithm Solving
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/jeonwonjun/algorithm/tree/master/0561-array-partition) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
