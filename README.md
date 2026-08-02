@@ -15,6 +15,7 @@ Algorithm Solving
 | [0455-assign-cookies](https://github.com/jeonwonjun/algorithm/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/jeonwonjun/algorithm/tree/master/0561-array-partition) |
 | [0605-can-place-flowers](https://github.com/jeonwonjun/algorithm/tree/master/0605-can-place-flowers) |
+| [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/jeonwonjun/algorithm/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 ## Two Pointers
 |  |
@@ -34,6 +35,7 @@ Algorithm Solving
 | ------- |
 | [0022-generate-parentheses](https://github.com/jeonwonjun/algorithm/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jeonwonjun/algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
 ## Linked List
 |  |
 | ------- |
@@ -47,6 +49,7 @@ Algorithm Solving
 | [0013-roman-to-integer](https://github.com/jeonwonjun/algorithm/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/jeonwonjun/algorithm/tree/master/0067-add-binary) |
 | [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
+| [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
 ## Recursion
 |  |
 | ------- |
@@ -104,4 +107,8 @@ Algorithm Solving
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
