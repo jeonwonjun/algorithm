@@ -18,6 +18,7 @@ Algorithm Solving
 | [0561-array-partition](https://github.com/jeonwonjun/algorithm/tree/master/0561-array-partition) |
 | [0605-can-place-flowers](https://github.com/jeonwonjun/algorithm/tree/master/0605-can-place-flowers) |
 | [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/jeonwonjun/algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/jeonwonjun/algorithm/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 ## Two Pointers
 |  |
@@ -52,6 +53,7 @@ Algorithm Solving
 | [0067-add-binary](https://github.com/jeonwonjun/algorithm/tree/master/0067-add-binary) |
 | [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 | [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/jeonwonjun/algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Recursion
 |  |
 | ------- |
