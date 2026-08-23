@@ -71,6 +71,7 @@ Algorithm Solving
 | [0169-majority-element](https://github.com/jeonwonjun/algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jeonwonjun/algorithm/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/jeonwonjun/algorithm/tree/master/0290-word-pattern) |
 ## String
 |  |
 | ------- |
@@ -80,6 +81,7 @@ Algorithm Solving
 | [0022-generate-parentheses](https://github.com/jeonwonjun/algorithm/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/jeonwonjun/algorithm/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/jeonwonjun/algorithm/tree/master/0067-add-binary) |
+| [0290-word-pattern](https://github.com/jeonwonjun/algorithm/tree/master/0290-word-pattern) |
 ## Backtracking
 |  |
 | ------- |
