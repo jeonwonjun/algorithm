@@ -75,6 +75,7 @@ Algorithm Solving
 | [0219-contains-duplicate-ii](https://github.com/jeonwonjun/algorithm/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/jeonwonjun/algorithm/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/jeonwonjun/algorithm/tree/master/0290-word-pattern) |
+| [0387-first-unique-character-in-a-string](https://github.com/jeonwonjun/algorithm/tree/master/0387-first-unique-character-in-a-string) |
 ## String
 |  |
 | ------- |
@@ -86,6 +87,7 @@ Algorithm Solving
 | [0049-group-anagrams](https://github.com/jeonwonjun/algorithm/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/jeonwonjun/algorithm/tree/master/0067-add-binary) |
 | [0290-word-pattern](https://github.com/jeonwonjun/algorithm/tree/master/0290-word-pattern) |
+| [0387-first-unique-character-in-a-string](https://github.com/jeonwonjun/algorithm/tree/master/0387-first-unique-character-in-a-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -121,6 +123,7 @@ Algorithm Solving
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jeonwonjun/algorithm/tree/master/0169-majority-element) |
+| [0387-first-unique-character-in-a-string](https://github.com/jeonwonjun/algorithm/tree/master/0387-first-unique-character-in-a-string) |
 ## Counting Sort
 |  |
 | ------- |
@@ -138,4 +141,8 @@ Algorithm Solving
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/jeonwonjun/algorithm/tree/master/0219-contains-duplicate-ii) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/jeonwonjun/algorithm/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
