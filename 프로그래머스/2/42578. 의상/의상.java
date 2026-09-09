@@ -9,9 +9,9 @@ class Solution {
             map.put(A[1], map.getOrDefault(A[1],0)+1);
         }
 
-
-        for(String s: map.keySet()){
-            answer *=map.get(s)+1;
+        // 기존 개수 + 착용하지 않음 = 기존 개수 + 1
+        for(String s : map.keySet()){
+            answer *= map.get(s)+1;
         }
 
         return answer-1;
