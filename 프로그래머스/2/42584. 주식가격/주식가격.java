@@ -1,23 +1,32 @@
 import java.util.*;
 
 class Solution {
-    public int[] solution(int[] prices) {
-        Stack<Integer> stack = new Stack<>();
-        stack.push(0);
+    class Stock {
+        int value;
+        int index;
         
-        int n = prices.length;
-        int[] answer = new int[n];
-        for (int i = 1; i < n; i++) {
-            while (!stack.isEmpty() && prices[i] < prices[stack.peek()]) {
-                int j = stack.pop();
-                answer[j] = i - j;
+        Stock(int value, int index) {
+            this.value = value;
+            this.index = index;
+        }
+    }
+    public int[] solution(int[] prices) {
+        Deque<Stock> stack = new ArrayDeque<>();
+        int[] answer = new int[prices.length];
+        
+        for (int i = 0; i < prices.length; i++) {
+            int value = prices[i];
+            while (!stack.isEmpty() && stack.peek().value > value) {
+                int index = stack.poll().index;
+                answer[index] = i - index;
             }
-            stack.push(i);
+            Stock stock = new Stock(value, i);
+            stack.push(stock);
         }
         
         while (!stack.isEmpty()) {
-            int j = stack.pop();
-            answer[j] = n - 1 - j;
+            int index = stack.poll().index;
+            answer[index] = prices.length - index - 1;
         }
         
         return answer;
