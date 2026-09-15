@@ -1,23 +1,23 @@
-import java.util.*;
+import java.util.Queue;
+import java.util.ArrayDeque;
 
 class Solution {
     public int solution(int[] players, int m, int k) {
         int answer = 0;
-        int[] server = new int[24];
-        Arrays.fill(server, 1);
+        Queue<Integer> queue = new ArrayDeque<>();
+        
         for (int i = 0; i < 24; i++) {
-            if (players[i] < server[i]*m) {
+            while (!queue.isEmpty() && queue.peek() == i) {
+                queue.poll();
+            }
+            if (players[i] < (queue.size() + 1)*m) {
                 continue;
             }
             
-            int needServer = players[i] / m + 1;
-            int plusServer = needServer - server[i];
-            answer += plusServer;
-            // System.out.printf("%d %d\n", needServer, plusServer);
-            for (int j = 0; j < k; j++) {
-                if (i + j < 24) {
-                    server[i+j] += plusServer;
-                }
+            int needServer = (players[i] / m) - queue.size();
+            for (int j = 0; j < needServer; j++) {
+                queue.offer(i + k);
+                answer++;
             }
         }
         return answer;
