@@ -40,7 +40,7 @@ class Solution {
                 int nx = x + dx[dir];
                 int ny = y + dy[dir];
                 if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-                while (board[nx].charAt(ny) == '.' || board[nx].charAt(ny) == 'G' || board[nx].charAt(ny) == 'R') {
+                while (board[nx].charAt(ny) != 'D') {
                     nx += dx[dir];
                     ny += dy[dir];
                     if (nx < 0 || nx >= n || ny < 0 || ny >= m) break;
