@@ -32,7 +32,6 @@ class Solution {
             int[] current = queue.poll();
             int x = current[0];
             int y = current[1];
-            System.out.printf("%s %s\n", x, y);
             if (target_x == x && target_y == y) {
                 return distance[x][y];
             }
@@ -51,7 +50,6 @@ class Solution {
                 if (distance[nx][ny] == -1) {
                     queue.offer(new int[]{nx, ny});
                     distance[nx][ny] = distance[x][y] + 1;
-                    System.out.printf("%s %s --- \n", nx, ny);
                 }
             }
         }
