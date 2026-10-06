@@ -49,7 +49,6 @@ class Solution {
                 nowTime += current.time;
                 answer += nowTime - current.start;
             }
-            System.out.printf("%d %d %d\n", i, nowTime, answer);
         }
         
         return answer / jobs.length;
