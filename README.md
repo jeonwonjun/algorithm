@@ -8,6 +8,7 @@ Algorithm Solving
 | ------- |
 | [0001-two-sum](https://github.com/jeonwonjun/algorithm/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/jeonwonjun/algorithm/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/jeonwonjun/algorithm/tree/master/0014-longest-common-prefix) |
 | [0035-search-insert-position](https://github.com/jeonwonjun/algorithm/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/jeonwonjun/algorithm/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jeonwonjun/algorithm/tree/master/0040-combination-sum-ii) |
@@ -90,6 +91,7 @@ Algorithm Solving
 | [0006-zigzag-conversion](https://github.com/jeonwonjun/algorithm/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/jeonwonjun/algorithm/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jeonwonjun/algorithm/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/jeonwonjun/algorithm/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/jeonwonjun/algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/jeonwonjun/algorithm/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/jeonwonjun/algorithm/tree/master/0049-group-anagrams) |
@@ -158,4 +160,8 @@ Algorithm Solving
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/jeonwonjun/algorithm/tree/master/0387-first-unique-character-in-a-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/jeonwonjun/algorithm/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
