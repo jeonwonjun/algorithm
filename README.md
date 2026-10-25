@@ -33,6 +33,7 @@ Algorithm Solving
 | ------- |
 | [0011-container-with-most-water](https://github.com/jeonwonjun/algorithm/tree/master/0011-container-with-most-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jeonwonjun/algorithm/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0392-is-subsequence](https://github.com/jeonwonjun/algorithm/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/jeonwonjun/algorithm/tree/master/0455-assign-cookies) |
 ## Greedy
 |  |
@@ -48,6 +49,7 @@ Algorithm Solving
 | ------- |
 | [0022-generate-parentheses](https://github.com/jeonwonjun/algorithm/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jeonwonjun/algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/jeonwonjun/algorithm/tree/master/0392-is-subsequence) |
 | [0877-stone-game](https://github.com/jeonwonjun/algorithm/tree/master/0877-stone-game) |
 ## Linked List
 |  |
@@ -99,6 +101,7 @@ Algorithm Solving
 | [0290-word-pattern](https://github.com/jeonwonjun/algorithm/tree/master/0290-word-pattern) |
 | [0387-first-unique-character-in-a-string](https://github.com/jeonwonjun/algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/jeonwonjun/algorithm/tree/master/0389-find-the-difference) |
+| [0392-is-subsequence](https://github.com/jeonwonjun/algorithm/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/jeonwonjun/algorithm/tree/master/0409-longest-palindrome) |
 ## Backtracking
 |  |
