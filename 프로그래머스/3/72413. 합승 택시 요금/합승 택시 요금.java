@@ -33,11 +33,14 @@ class Solution {
             graph[fares[i][1]].add(new Edge(fares[i][0], fares[i][2]));
         }
         
-        int[] startPoint = dijkstra(n, s, graph);
+        int[] distS = dijkstra(n, s, graph);
+        int[] distA = dijkstra(n, a, graph);
+        int[] distB = dijkstra(n, b, graph);
         for (int i = 1; i <= n; i++) {
-            int[] dist = dijkstra(n, i, graph);
-            if (startPoint[i] + dist[a] + dist[b] < answer) {
-                answer = startPoint[i] + dist[a] + dist[b];
+            if (distS[i] == Integer.MAX_VALUE || distA[i] == Integer.MAX_VALUE || distB[i] == Integer.MAX_VALUE) continue;
+            
+            if (distS[i] + distA[i] + distB[i] < answer) {
+                answer = distS[i] + distA[i] + distB[i];
             }
         }
         
