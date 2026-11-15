@@ -1,6 +1,11 @@
 class Solution {
     public int solution(int n) {
-        int k = n / 2;  
-        return k * (k + 1);
+        int answer = 0;
+ 
+        for (int i = 2; i <= n; i += 2) {
+            answer += i;
+        }
+ 
+        return answer;
     }
 }
