@@ -103,6 +103,7 @@ Algorithm Solving
 | [0389-find-the-difference](https://github.com/jeonwonjun/algorithm/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/jeonwonjun/algorithm/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/jeonwonjun/algorithm/tree/master/0409-longest-palindrome) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/jeonwonjun/algorithm/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 ## Backtracking
 |  |
 | ------- |
